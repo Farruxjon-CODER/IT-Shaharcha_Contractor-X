@@ -1,7 +1,7 @@
 <script setup>
-import { ref } from 'vue';
+    import { ref } from 'vue';
 
-const title = ref('Home Component');
+    const title = ref('Home Component');
 </script>
 
 <template>
@@ -10,4 +10,6 @@ const title = ref('Home Component');
     </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+    
+</style>
