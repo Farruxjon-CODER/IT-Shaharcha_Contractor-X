@@ -7,7 +7,7 @@
 <template>
     <div>
         <h1>{{ title }}</h1>
-        <div class="abaut us">
+        <div class="abaut_us">
             <div class="abaut_1">
                 <div class="img_content">
                     <!-- <img src="/img/1.png" alt=""> -->
@@ -128,5 +128,9 @@
         margin: 0px;
         padding: 0px;
         box-sizing: border-box;
+    }
+
+    .abaut_us .abaut_2 .info{
+        display: flex;
     }
 </style>
