@@ -5,7 +5,7 @@ const title = ref('Home Component');
 </script>
 
 <template>
-    <div>
+    <div class="home">
         <!-- <h1>{{ title }}</h1> -->
          <h1>We provide effective contracting services</h1>
          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit varius rhoncus, nullam pulvinar ut sollicitudin dictumst porttitor porttitor quis quisque erat.</p>
@@ -14,76 +14,72 @@ const title = ref('Home Component');
             <button class="btn2">Our services</button>
         </div>
 
-         <div class="img"></div>
-         <!-- <img src="IMAGE.png" alt=""> -->
+         <div class="img">
+         <img src="../../img/IMAGE.png" alt="">
+         </div>
     </div>
 </template>
 
 <style scoped>
-    /* *{
-        width: 1440px;
-        height: 955px;
-        margin: 0;
-        padding: 0;
-    } */
 
-    h1{
-        font-family: Barlow;
-        font-weight: 400;
-        font-style: Regular;
-        font-size: 72px;
-        line-height: 84.02px;
-        letter-spacing: 0%;
-        text-align: center;
-        flex-wrap: wrap;
-    }
-
-    p{
-        font-family: Barlow;
-        font-weight: 400;
-        font-style: Regular;
-        font-size: 18px;
-        line-height: 30.01px;
-        text-align: center;
-        flex-wrap: wrap;
-
-    }
-
-    button{
-        width: 150px;
-        height: 70px;
-        top: 100px;        
-    }
-    .buttons {
-        display: flex;
-        gap: 15px;
-    }
-    .buttons {
-    display: flex;
-    gap: 12px;
-    }
-
-    .btn1 {
-    background: #FF4D01;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    }
-
-    .btn2 {
-    background-color: #FFFFFF;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    }
-
-
-
-
+.home{
+    background-image: url(../../../img/IMAGE.png);
     
+}
 
-    .img{
-        background-image: url(../../../img/IMAGE.png);
-    }
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    color: white; 
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8); 
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn1, .btn2 {
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.btn1 {
+    background-color: #FF5722; 
+    color: white;
+}
+
+.btn1:hover {
+    background-color: #E64A19;
+}
+
+.btn2 {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.btn2:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+} 
+
 
 </style>
