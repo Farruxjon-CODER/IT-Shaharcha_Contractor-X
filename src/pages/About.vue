@@ -16,7 +16,8 @@
                     <h5>/ABOUT US</h5>
                     <h1>A team of reliable and <br> experienced <br> contractors</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique imperdiet <br> nisi metus,
-                        viverra nulla aliquet dui porta porttitor neque lectus diam justo <br> lobortis purus in elit, elementum
+                        viverra nulla aliquet dui porta porttitor neque lectus diam justo <br> lobortis purus in elit,
+                        elementum
                         dignissim
                         nullam vitae pellentesque aliquet <br> aliquam sagittis pulvinar egestas morbi suspendisse
                         eleifend.
@@ -129,32 +130,34 @@
                 <button>Our services</button>
             </div>
         </div>
-    </div>           
+
+    </div>
+    </div>
 </template>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
     * {
         margin: 0px;
         padding: 0px;
         box-sizing: border-box;
-        font-family:"Barlow",sans-serif;
+        font-family: "Barlow", sans-serif;
     }
 
-    .abaut_us .abaut_1{
+    .abaut_us .abaut_1 {
         display: flex;
         gap: 75px;
         margin-bottom: 200px;
         justify-content: center;
     }
 
-    .abaut_us .abaut_1 .img_content img{
-        width:478.625px;
-        height:681.359375px ;
+    .abaut_us .abaut_1 .img_content img {
+        width: 478.625px;
+        height: 681.359375px;
     }
 
-    .abaut_us .abaut_1 .text_content h5{
+    .abaut_us .abaut_1 .text_content h5 {
         font-family: "Barlow", sans-serif;
         color: #FF4D01;
         font-size: 20px;
@@ -162,15 +165,15 @@
         margin-top: 60px;
     }
 
-    .abaut_us .abaut_1 .text_content h1{
-        font-family: "Barlow" , sans-serif;
+    .abaut_us .abaut_1 .text_content h1 {
+        font-family: "Barlow", sans-serif;
         font-weight: 400;
         font-size: 54px;
         line-height: 61.99px;
         margin-top: 18px;
     }
-    
-    .abaut_us .abaut_1 .text_content p{
+
+    .abaut_us .abaut_1 .text_content p {
         font-family: "Barlow";
         font-weight: 400;
         font-size: 18px;
@@ -179,15 +182,15 @@
         margin-top: 20px;
     }
 
-    .abaut_us .abaut_1 .text_content .price{
+    .abaut_us .abaut_1 .text_content .price {
         display: flex;
         gap: 90px;
         margin-bottom: 30px;
         margin-top: 35px;
     }
 
-    .abaut_us .abaut_1 .text_content .price .one h1{
-        font-family: "Barlow" , sans-serif;
+    .abaut_us .abaut_1 .text_content .price .one h1 {
+        font-family: "Barlow", sans-serif;
         color: #191919;
         font-weight: 400;
         font-size: 72px;
@@ -195,25 +198,25 @@
         text-align: center;
     }
 
-    .abaut_us .abaut_1 .text_content .price .one h1 span{
+    .abaut_us .abaut_1 .text_content .price .one h1 span {
         font-weight: 400;
         font-size: 72px;
-        font-family:"Barlow" , sans-serif;
+        font-family: "Barlow", sans-serif;
         line-height: 84.02px;
         text-align: center;
         color: #FF4D01;
     }
 
-    .abaut_us .abaut_1 .text_content .price .one p{
+    .abaut_us .abaut_1 .text_content .price .one p {
         font-size: 18px;
         font-weight: 400;
-        font-family:"Barlow" , sans-serif;
+        font-family: "Barlow", sans-serif;
         color: #989899;
         line-height: 20px;
         text-align: center;
     }
 
-    .abaut_us .abaut_1 .text_content .price .two h1{
+    .abaut_us .abaut_1 .text_content .price .two h1 {
         font-size: 72px;
         font-weight: 400;
         font-family: "Barlow";
@@ -222,64 +225,63 @@
         text-align: center;
     }
 
-    .abaut_us .abaut_1 .text_content .price .two h1 span{
+    .abaut_us .abaut_1 .text_content .price .two h1 span {
         font-size: 72px;
         font-weight: 400;
-        font-family:"Barlow" , sans-serif;
+        font-family: "Barlow", sans-serif;
         color: #FF4D01;
         line-height: 84.02px;
         text-align: center;
     }
 
-    .abaut_us .abaut_1 .text_content .price .two p{
+    .abaut_us .abaut_1 .text_content .price .two p {
         font-size: 18px;
         font-weight: 400;
-        font-family:"Barlow" , sans-serif;
+        font-family: "Barlow", sans-serif;
         text-align: center;
         color: #989899;
         line-height: 20px;
     }
 
-    .abaut_us .abaut_1 .text_content .price .three h1{
+    .abaut_us .abaut_1 .text_content .price .three h1 {
         font-size: 72px;
         font-weight: 400;
         color: #191919;
-        font-family:"Barlow";
+        font-family: "Barlow";
         text-align: center;
         line-height: 84.02px;
     }
 
-    .abaut_us .abaut_1 .text_content .price .three h1 span{
+    .abaut_us .abaut_1 .text_content .price .three h1 span {
         font-size: 72px;
         font-weight: 400;
-        font-family:"Barlow";
+        font-family: "Barlow";
         color: #FF4D01;
         line-height: 84.02px;
         text-align: center;
     }
 
-    .abaut_us .abaut_1 .text_content .price .three p{
+    .abaut_us .abaut_1 .text_content .price .three p {
         font-size: 18px;
         font-weight: 400;
-        font-family:"Barlow" , sans-serif;
+        font-family: "Barlow", sans-serif;
         color: #989899;
         text-align: center;
         line-height: 20px;
     }
 
-    .abaut_us .abaut_1 .text_content .btn{
+    .abaut_us .abaut_1 .text_content .btn {
         font-size: 18px;
         font-weight: 400;
         display: inline-block;
         width: 237px;
         height: 75px;
-        color:#191919;
+        color: #191919;
         border: solid 2px #191919;
-        font-family:"Barlow";
+        font-family: "Barlow";
         line-height: 20px;
         text-decoration: none;
         text-align: center;
         padding-top: 24px;
     }
-
 </style>
