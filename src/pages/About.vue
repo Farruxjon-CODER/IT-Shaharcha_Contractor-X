@@ -135,9 +135,16 @@
                     <button>Get a quote</button>
                     <button>Our services</button>
                 </div>
+                <h1>Ready to pull the trigger? Get a quote today.</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit varius rhoncus, nullam pulvinar ut
+                    sollicitudin dictumst porttitor porttitor quis.</p>
+                <button>Get a quote</button>
+                <button>Our services</button>
             </div>
         </div>
+
     </div>
+  
 </template>
 
 <style scoped>
@@ -353,5 +360,104 @@
 
     .abaut_us .abaut_2 .cards .cards_wrapper_bottom {
         display: flex;
+        gap: 90px;
+        margin-bottom: 30px;
+        margin-top: 35px;
+    }
+
+    .abaut_us .abaut_1 .text_content .price .one h1 {
+        font-family: "Barlow", sans-serif;
+        color: #191919;
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 84.02px;
+        text-align: center;
+    }
+
+    .abaut_us .abaut_1 .text_content .price .one h1 span {
+        font-weight: 400;
+        font-size: 72px;
+        font-family: "Barlow", sans-serif;
+        line-height: 84.02px;
+        text-align: center;
+        color: #FF4D01;
+    }
+
+    .abaut_us .abaut_1 .text_content .price .one p {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "Barlow", sans-serif;
+        color: #989899;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .abaut_us .abaut_1 .text_content .price .two h1 {
+        font-size: 72px;
+        font-weight: 400;
+        font-family: "Barlow";
+        color: #191919;
+        line-height: 84.02px;
+        text-align: center;
+    }
+
+    .abaut_us .abaut_1 .text_content .price .two h1 span {
+        font-size: 72px;
+        font-weight: 400;
+        font-family: "Barlow", sans-serif;
+        color: #FF4D01;
+        line-height: 84.02px;
+        text-align: center;
+    }
+
+    .abaut_us .abaut_1 .text_content .price .two p {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "Barlow", sans-serif;
+        text-align: center;
+        color: #989899;
+        line-height: 20px;
+    }
+
+    .abaut_us .abaut_1 .text_content .price .three h1 {
+        font-size: 72px;
+        font-weight: 400;
+        color: #191919;
+        font-family: "Barlow";
+        text-align: center;
+        line-height: 84.02px;
+    }
+
+    .abaut_us .abaut_1 .text_content .price .three h1 span {
+        font-size: 72px;
+        font-weight: 400;
+        font-family: "Barlow";
+        color: #FF4D01;
+        line-height: 84.02px;
+        text-align: center;
+    }
+
+    .abaut_us .abaut_1 .text_content .price .three p {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "Barlow", sans-serif;
+        color: #989899;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .abaut_us .abaut_1 .text_content .btn {
+        font-size: 18px;
+        font-weight: 400;
+        display: inline-block;
+        width: 237px;
+        height: 75px;
+        color: #191919;
+        border: solid 2px #191919;
+        font-family: "Barlow";
+        line-height: 20px;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 24px;
     }
 </style>
