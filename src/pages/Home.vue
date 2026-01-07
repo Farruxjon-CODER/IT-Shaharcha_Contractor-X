@@ -1,3 +1,7 @@
+<script setup>
+    import { ref } from 'vue';
+
+    const title = ref('Home Component');
 <!-- <script setup>
 import { ref } from "vue";
 

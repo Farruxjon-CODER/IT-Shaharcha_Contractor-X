@@ -301,7 +301,7 @@
         text-decoration: none;
         text-align: center;
         padding-top: 24px;
-    }
+  }
 
     .abaut_us .abaut_2 .info {
         display: flex;
