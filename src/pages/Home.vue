@@ -1,8 +1,8 @@
 <script setup>
-    import { ref } from 'vue';
+import { ref } from 'vue';
 
-    const title = ref('Home Component');
-<!-- <script setup>
+// const title = ref('Home Component');
+// <!-- <script setup>
 import { ref } from "vue";
 
 const title = ref("Home Component");
@@ -24,7 +24,7 @@ const title = ref("Home Component");
         </nav>
     </div>
     <!-- <h1>{{ title }}</h1> -->
-    <!-- <h1>We provide effective contracting services</h1>
+    <h1>We provide effective contracting services</h1>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit varius
       rhoncus, nullam pulvinar ut sollicitudin dictumst porttitor porttitor quis
@@ -38,98 +38,95 @@ const title = ref("Home Component");
 
       <img src="../../img/IMAGE.png"  alt="" >
     
-  </div> -->
-<!-- </template>
+  </div>
+</template>
 
 <style scoped>
 .home {
- 
-  nav {
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px 0;
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        gap: 60px;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        padding: 10px 15px;
+        color: #333;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    nav ul li a:hover {
+        color: #007bff;
+    }
+}
+
+.container {
     display: flex;
-    justify-content: flex-end; 
-    padding: 20px 0;
-}
-
-nav ul {
-    display: flex;
-    list-style: none; 
-    gap: 60px; 
-    margin: 0;
-    padding: 0;
-    align-items: center;
-}
-
-nav ul li a {
-    text-decoration: none;
-    padding: 10px 15px;
-    color: #333;
-    font-size: 18px; 
-    font-weight: 500;
-}
-
-nav ul li a:hover {
-    color: #007bff;
-}
-} -->
-
-<!-- .container {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 h1 {
-  font-size: 48px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  line-height: 1.2;
-  color: white;
-  text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    color: white;
+    text-align: center;
 }
 
 p {
-  font-size: 16px;
-  color: rgba(255, 255, 255, 0.8);
-  margin-bottom: 30px;
-  text-align: center;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .buttons {
-  display: flex;
-  gap: 20px;
+    display: flex;
+    gap: 20px;
 }
 
 .btn1,
 .btn2 {
-  padding: 15px 30px;
-  font-size: 16px;
-  border: none;
-  border-radius: 5px;
-  font-weight: 500;
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
 }
 
 .btn1 {
-  background-color: #ff5722;
-  color: white;
+    background-color: #ff5722;
+    color: white;
 }
 
 .btn1:hover {
-  background-color: #e64a19;
+    background-color: #e64a19;
 }
 
 .btn2 {
-  background-color: transparent;
-  color: white;
-  border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
 }
 
 .btn2:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
 }
-
-
-
-</style> --> 
+</style>
 
 
 
@@ -141,34 +138,35 @@ const title = ref("Home Component");
 </script>
 
 <template>
-  <div class="home">
-    <!-- NAVBAR -->
-    <nav class="navbar">
-      <ul>
-        <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/about">About</router-link></li>
-        <li><router-link to="/blog">Blog</router-link></li>
-        <li><router-link to="/pages">Pages</router-link></li>
-        <li><router-link to="/contact">Contact</router-link></li>
-        <li><router-link to="">Cart(0)</router-link></li>
-        <li><button style="background-color: orange; width: 129px;height: 50px;  "><router-link to="">Get a quote</router-link></button></li>
-      </ul>
-    </nav>
+    <div class="home">
+        <!-- NAVBAR -->
+        <nav class="navbar">
+            <ul>
+                <li><router-link to="/">Home</router-link></li>
+                <li><router-link to="/about">About</router-link></li>
+                <li><router-link to="/blog">Blog</router-link></li>
+                <li><router-link to="/pages">Pages</router-link></li>
+                <li><router-link to="/contact">Contact</router-link></li>
+                <li><router-link to="">Cart(0)</router-link></li>
+                <li><button style="background-color: orange; width: 129px;height: 50px;  "><router-link to="">Get a
+                            quote</router-link></button></li>
+            </ul>
+        </nav>
 
-    <!-- CONTENT -->
-    <div class="content">
-      <h1>We provide effective contracting services</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit varius
-        rhoncus, nullam pulvinar ut sollicitudin dictumst porttitor.
-      </p>
+        <!-- CONTENT -->
+        <div class="content">
+            <h1>We provide effective contracting services</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit varius
+                rhoncus, nullam pulvinar ut sollicitudin dictumst porttitor.
+            </p>
 
-      <div class="buttons">
-        <button class="btn1">Get a quote</button>
-        <button class="btn2">Our services</button>
-      </div>
+            <div class="buttons">
+                <button class="btn1">Get a quote</button>
+                <button class="btn2">Our services</button>
+            </div>
+        </div>
     </div>
-  </div>
 </template>
 
 <style scoped>
@@ -275,4 +273,3 @@ p {
   background-color: rgba(255, 255, 255, 0.1);
 }
 </style>
-
