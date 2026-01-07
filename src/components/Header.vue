@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <!-- <div>
         <nav>
             <ul>
                 <li><router-link to="/">Home</router-link></li>
@@ -9,11 +9,11 @@
                 <li><router-link to="/contact">Contact</router-link></li>
             </ul>
         </nav>
-    </div>
+    </div> -->
 </template>
 
 <style scoped>
-nav {
+/* nav {
     display: flex;
     justify-content: flex-end; 
     padding: 20px 0;
@@ -38,5 +38,5 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #007bff;
-}
+} */
 </style>
