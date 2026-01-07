@@ -3,18 +3,19 @@ import { ref } from 'vue';
 
 // const title = ref('Contact Component');
 </script>
-
+ 
 <template>
     <div>
         <!-- <h1>{{ title }}</h1> -->
         <div class="footer">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit <br> amet consectetur <br>
+                adipisicing elit.</p>
             <br>
             <div class="btns">
-                <button></button>
-                <button></button>
-                <button></button>
-                <button></button>
+                <button style="background-color: orangered; height: 30px; width: 30px;"></button>
+                <button style="background-color: orangered; height: 30px; width: 30px;"></button>
+                <button style="background-color: orangered; height: 30px; width: 30px;"></button>
+                <button style="background-color: orangered; height: 30px; width: 30px;"></button>
             </div>
             <div class="Menues">
                 <h4>
@@ -54,13 +55,24 @@ import { ref } from 'vue';
                     Contact us
                 </h4>
                 <div class="contact-btns">
-                    <button type="button">Call us <br><spans>(323) 238-0682</spans></button>
-                    <button type="button">Email us <br><spans>info@contractor.com</spans></button>
+                    <button type="button">Call us <br>
+                        <spans>(323) 238-0682</spans>
+                    </button>
+                    <div class="contact-btns2">
+                        <br><br><br>
+                        <button type="button">Email us <br>
+                            <spans>info@contractor.com</spans>
+                        </button>
+                    </div>
                 </div>
             </div>
             <div class="footer-txt">
-                <p>Copyright © Contractor X</p>
-                <p>Designed by <span>BRIX Templates </span> |Powered by <span> Webflow</span></p>
+                <div class="copyright">
+                    <p>Copyright © Contractor X</p>
+                </div>
+                <div>
+                    <p>Designed by <span>BRIX Templates </span> |Powered by <span> Webflow</span></p>
+                </div>
             </div>
         </div>
     </div>
@@ -71,16 +83,23 @@ import { ref } from 'vue';
     background-color: black;
     color: #fff;
     font-family: barlow;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
 }
 
 .btns {
     display: flex;
-    gap: 10px;
     color: orangered;
+    display: inline;
+    position: relative;
+    top: 100px;
+    right: 150px;
 }
 
 .Menues {
     position: relative;
+    top: 5px;
 }
 
 .Menues2 {
@@ -89,16 +108,29 @@ import { ref } from 'vue';
 }
 
 .contact-btns {
-    border-radius: 5px;
-    border: orangered;
+    background: #000000;
 }
 
-span{
+.contact-btns2 {
+    background: #000000;
+}
+
+span {
     color: orangered;
 }
 
-.footer-txt{
+.footer-txt {
     display: flex;
-    justify-content: space-between;
+    position: relative;
+    justify-content: space-evenly;
+    top: 500px;
+    gap: 200px;
+}
+
+.footer-txt .copyright {
+    position: relative;
+    display: flex;
+    right: 880px;
+    color: rgb(97, 97, 97);
 }
 </style>
