@@ -207,6 +207,7 @@
     .container {
         width: 1500px;
         max-width: 95%;
+        margin: auto;
     }
 
     .abaut_us .abaut_1 {
@@ -214,7 +215,7 @@
         gap: 150px;
         margin-bottom: 200px;
         justify-content: center;
-        margin-left: 250px;
+        margin-left: 70px;
     }
 
     .abaut_us .abaut_1 .img_content img {
