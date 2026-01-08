@@ -80,7 +80,7 @@
                                         fermentum <br>
                                         sagittis, et mi lacus ornare tincidunt id.</p>
                                     <div class="learn_more">
-                                        <div class="color"></div>
+                                        <img class="color" src="../../img/8.png" alt="">
                                         <h6>Learn more</h6>
                                     </div>
                                 </div>
@@ -91,7 +91,7 @@
                                         fermentum <br>
                                         sagittis, et mi lacus ornare tincidunt id.</p>
                                     <div class="learn_more">
-                                        <div class="color"></div>
+                                        <img class="color" src="../../img/8.png" alt="">
                                         <h6>Learn more</h6>
                                     </div>
                                 </div>
@@ -102,7 +102,7 @@
                                         fermentum <br>
                                         sagittis, et mi lacus ornare tincidunt id.</p>
                                     <div class="learn_more">
-                                        <div class="color"></div>
+                                        <img class="color" src="../../img/8.png" alt="">
                                         <h6>Learn more</h6>
                                     </div>
                                 </div>
@@ -115,7 +115,7 @@
                                         fermentum <br>
                                         sagittis, et mi lacus ornare tincidunt id.</p>
                                     <div class="learn_more">
-                                        <div class="color"></div>
+                                        <img class="color" src="../../img/8.png" alt="">
                                         <h6>Learn more</h6>
                                     </div>
                                 </div>
@@ -126,7 +126,7 @@
                                         fermentum <br>
                                         sagittis, et mi lacus ornare tincidunt id.</p>
                                     <div class="learn_more">
-                                        <div class="color"></div>
+                                        <img class="color" src="../../img/8.png" alt="">
                                         <h6>Learn more</h6>
                                     </div>
                                 </div>
@@ -137,7 +137,7 @@
                                         fermentum <br>
                                         sagittis, et mi lacus ornare tincidunt id.</p>
                                     <div class="learn_more">
-                                        <div class="color"></div>
+                                        <img class="color" src="../../img/8.png" alt="">
                                         <h6>Learn more</h6>
                                     </div>
                                 </div>
@@ -205,17 +205,22 @@
     }
 
     .container {
-        width: 1500px;
+        margin: 0px 120px !important;
         max-width: 95%;
         margin: auto;
+    }
+
+    .abaut_us{
+        background-size: cover;
     }
 
     .abaut_us .abaut_1 {
         display: flex;
         gap: 150px;
-        margin-bottom: 200px;
+        margin-bottom: 285px;
         justify-content: center;
-        margin-left: 70px;
+        margin-left: 80px;
+        background-size: cover;
     }
 
     .abaut_us .abaut_1 .img_content img {
@@ -353,6 +358,8 @@
 
     .abaut_us .abaut_2 .info {
         display: flex;
+        justify-content: space-between;
+        background-size: cover;
     }
 
     .abaut_us .abaut_2 .info .text_content h5 {
@@ -362,6 +369,7 @@
         color: #FF4D01;
         line-height: 22px;
         letter-spacing: 0.8px;
+        margin-bottom: 16px;
     }
 
     .abaut_us .abaut_2 .info .text_content h1 {
@@ -370,6 +378,10 @@
         font-family: "Barlow";
         color: #191919;
         line-height: 61.99px;
+    }
+
+    .abaut_us .abaut_2 .info .btns{
+        margin-top: 40px;
     }
 
     .abaut_us .abaut_2 .info .btns .btn_1 {
@@ -385,6 +397,8 @@
         background-color: #ff4d01;
         display: inline-block;
         padding-top: 26px;
+        margin-right: 29px;
+        
     }
 
     .abaut_us .abaut_2 .info .btns .btn_2 {
@@ -407,11 +421,304 @@
         display: flex;
     }
 
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1{
+        width: 364px;
+        height: 296px;
+        box-shadow:1px 1px 5px black;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 img{
+        width: 70px;
+        height: 68px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 h1{
+        font-size: 34px;
+        font-weight: 400;
+        color: #191919;
+        font-family:"Barlow" , sans-serif;
+        line-height: 48.01px;
+        margin-top: 25px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 p{
+        font-size: 18px;
+        font-weight: 400;
+        font-family:"Barlow" , sans-serif;
+        color: #605E5D;
+        line-height: 30.01px;
+        margin-top: 13px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 .learn_more{
+        display: flex;
+        gap: 10px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 .learn_more .color{
+        width: 30px;
+        height: 30px;
+        margin-top: 18px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 .learn_more h6{
+        font-size: 18px;
+        font-weight: 400;
+        color: #191919;
+        font-family:"Barlow" , sans-serif;
+        line-height: 20px;
+        margin-top: 23px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2{
+        width: 364px;
+        height: 296px;
+        box-shadow:1px 1px 5px black;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 img{
+        width: 70px;
+        height: 68px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 h1{
+        font-size: 34px;
+        font-weight: 400;
+        color: #191919;
+        font-family:"Barlow" , sans-serif;
+        line-height: 48.01px;
+        margin-top: 25px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 p{
+        font-size: 18px;
+        font-weight: 400;
+        font-family:"Barlow" , sans-serif;
+        color: #605E5D;
+        line-height: 30.01px;
+        margin-top: 13px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 .learn_more{
+        display: flex;
+        gap: 10px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 .learn_more .color{
+        width: 30px;
+        height: 30px;
+        margin-top: 18px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 .learn_more h6{
+        font-size: 18px;
+        font-weight: 400;
+        color: #191919;
+        font-family:"Barlow" , sans-serif;
+        line-height: 20px;
+        margin-top: 23px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3{
+        width: 364px;
+        height: 296px;
+        box-shadow:1px 1px 5px black;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 img{
+        width: 70px;
+        height: 68px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 h1{
+        font-size: 34px;
+        font-weight: 400;
+        color: #191919;
+        font-family:"Barlow" , sans-serif;
+        line-height: 48.01px;
+        margin-top: 25px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 p{
+        font-size: 18px;
+        font-weight: 400;
+        font-family:"Barlow" , sans-serif;
+        color: #605E5D;
+        line-height: 30.01px;
+        margin-top: 13px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 .learn_more{
+        display: flex;
+        gap: 10px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 .learn_more .color{
+        width: 30px;
+        height: 30px;
+        margin-top: 18px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 .learn_more h6{
+        font-size: 18px;
+        font-weight: 400;
+        color: #191919;
+        font-family:"Barlow" , sans-serif;
+        line-height: 20px;
+        margin-top: 23px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4{
+        width: 364px;
+        height: 296px;
+        box-shadow:1px 1px 5px black;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 img{
+        width: 70px;
+        height: 68px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 h1{
+        font-size: 34px;
+        font-weight: 400;
+        color: #191919;
+        font-family:"Barlow" , sans-serif;
+        line-height: 48.01px;
+        margin-top: 25px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 p{
+        font-size: 18px;
+        font-weight: 400;
+        font-family:"Barlow" , sans-serif;
+        color: #605E5D;
+        line-height: 30.01px;
+        margin-top: 13px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 .learn_more{
+        display: flex;
+        gap: 10px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 .learn_more .color{
+        width: 30px;
+        height: 30px;
+        margin-top: 18px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 .learn_more h6{
+        font-size: 18px;
+        font-weight: 400;
+        color: #191919;
+        font-family:"Barlow" , sans-serif;
+        line-height: 20px;
+        margin-top: 23px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5{
+        width: 364px;
+        height: 296px;
+        box-shadow:1px 1px 5px black;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 img{
+        width: 70px;
+        height: 68px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 h1{
+        font-size: 34px;
+        font-weight: 400;
+        color: #191919;
+        font-family:"Barlow" , sans-serif;
+        line-height: 48.01px;
+        margin-top: 25px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 p{
+        font-size: 18px;
+        font-weight: 400;
+        font-family:"Barlow" , sans-serif;
+        color: #605E5D;
+        line-height: 30.01px;
+        margin-top: 13px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 .learn_more{
+        display: flex;
+        gap: 10px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 .learn_more .color{
+        width: 30px;
+        height: 30px;
+        margin-top: 18px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 .learn_more h6{
+        font-size: 18px;
+        font-weight: 400;
+        color: #191919;
+        font-family:"Barlow" , sans-serif;
+        line-height: 20px;
+        margin-top: 23px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6{
+        width: 364px;
+        height: 296px;
+        box-shadow:1px 1px 5px black;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 img{
+        width: 70px;
+        height: 68px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 h1{
+        font-size: 34px;
+        font-weight: 400;
+        color: #191919;
+        font-family:"Barlow" , sans-serif;
+        line-height: 48.01px;
+        margin-top: 25px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 p{
+        font-size: 18px;
+        font-weight: 400;
+        font-family:"Barlow" , sans-serif;
+        color: #605E5D;
+        line-height: 30.01px;
+        margin-top: 13px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 .learn_more{
+        display: flex;
+        gap: 10px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 .learn_more .color{
+        width: 30px;
+        height: 30px;
+        margin-top: 18px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 .learn_more h6{
+        font-size: 18px;
+        font-weight: 400;
+        color: #191919;
+        font-family:"Barlow" , sans-serif;
+        line-height: 20px;
+        margin-top: 23px;
+    }
+
     .abaut_us .abaut_2 .cards .cards_wrapper_bottom {
         display: flex;
-        gap: 90px;
         margin-bottom: 30px;
-        margin-top: 35px;
+        margin-top: 90px;
     }
 
     .abaut_us .abaut_1 .text_content .price .one h1 {
