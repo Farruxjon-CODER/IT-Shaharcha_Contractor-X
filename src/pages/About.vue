@@ -205,9 +205,13 @@
     }
 
     .container {
-        width: 1500px;
+        margin: 0px 120px !important;
         max-width: 95%;
         margin: auto;
+    }
+
+    .abaut_us{
+        background-size: cover;
     }
 
     .abaut_us .abaut_1 {
@@ -216,6 +220,7 @@
         margin-bottom: 200px;
         justify-content: center;
         margin-left: 70px;
+        background-size: cover;
     }
 
     .abaut_us .abaut_1 .img_content img {
@@ -353,6 +358,8 @@
 
     .abaut_us .abaut_2 .info {
         display: flex;
+        justify-content: space-between;
+        background-size: cover;
     }
 
     .abaut_us .abaut_2 .info .text_content h5 {
