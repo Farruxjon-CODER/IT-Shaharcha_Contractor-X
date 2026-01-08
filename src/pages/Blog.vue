@@ -6,56 +6,66 @@ const title = ref('Contact Component');
 </script>
 
 <template>
-    <section class="blog">
-        <div class="container">
-
-            <div class="header">
-                <span id="blog" class="blog-tag">/BLOG</span>
-                <h1 class="h1">Articles & News</h1>
-                <button class="btn">Browse articles</button>
-            </div>
-
-            <div class="content">
-
-                <div class="main-img">
-                    <img src="../../img/Blog1.jpg" alt="">
-                    <h2>12 designers tricks for picking the perfect home color palette</h2>
-                    <span class="date">June 17, 2022</span>
+    <div class="home">
+        <div>
+            <nav>
+                <ul>
+                    <li><router-link to="/">Home</router-link></li>
+                    <li><router-link to="/about">About</router-link></li>
+                    <li><router-link to="/Blog">Blog</router-link></li>
+                    <li><router-link to="/Pages">Pages</router-link></li>
+                    <li><router-link to="/contact">Contact</router-link></li>
+                </ul>
+            </nav>
+        </div>
+        <section class="blog">
+            <div class="container">
+                <div class="header">
+                    <span id="blog" class="blog-tag">/BLOG</span>
+                    <h1 class="h1">Articles & News</h1>
+                    <button class="btn">Browse articles</button>
                 </div>
 
-                <div class="side-img">
-                    <div class="img">
-                        <div class="article">
-                            <img id="img2" src="../../img/Blog2.jpg" alt="">
+                <div class="content">
+
+                    <div class="main-img">
+                        <img src="../../img/Blog1.jpg" alt="">
+                        <h2>12 designers tricks for picking the perfect home color palette</h2>
+                        <span class="date">June 17, 2022</span>
+                    </div>
+
+                    <div class="side-img">
+                        <div class="img">
+                            <div class="article">
+                                <img id="img2" src="../../img/Blog2.jpg" alt="">
+                                <div>
+                                    <h3 id="h3">Paint trends 2022 – the 17 colors you need for the ultimate wonder walls
+                                    </h3>
+                                    <span class="date">June 17, 2022</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="img">
+                            <img src="../../img/Blog3.jpg" alt="">
                             <div>
-                                <h3 id="h3">Paint trends 2022 – the 17 colors you need for the ultimate wonder walls
-                                </h3>
+                                <h3>Clever DIY home improvements you can do during the pandemic</h3>
+                                <span class="date">June 17, 2022</span>
+                            </div>
+                        </div>
+
+                        <div class="img">
+                            <img src="../../img/Blog4.jpg" alt="">
+                            <div>
+                                <h3>15 mind blowing floor designs to make your home look great</h3>
                                 <span class="date">June 17, 2022</span>
                             </div>
                         </div>
                     </div>
-
-                    <div class="img">
-                        <img src="../../img/Blog3.jpg" alt="">
-                        <div>
-                            <h3>Clever DIY home improvements you can do during the pandemic</h3>
-                            <span class="date">June 17, 2022</span>
-                        </div>
-                    </div>
-
-                    <div class="img">
-                        <img src="../../img/Blog4.jpg" alt="">
-                        <div>
-                            <h3>15 mind blowing floor designs to make your home look great</h3>
-                            <span class="date">June 17, 2022</span>
-                        </div>
-                    </div>
-
                 </div>
             </div>
-
-        </div>
-    </section>
+        </section>
+    </div>
 </template>
 
 <style scoped>
@@ -69,6 +79,36 @@ const title = ref('Contact Component');
 body {
     background: #fff;
     color: #111;
+}
+
+.home {
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px 0;
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        gap: 60px;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        padding: 10px 15px;
+        color: #333;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    nav ul li a:hover {
+        color: #007bff;
+    }
 }
 
 .container {
@@ -156,14 +196,15 @@ body {
     width: 100px;
     display: inline;
     float: left;
-   margin-right: 15px;
+    margin-right: 15px;
 }
-#blog{
+
+#blog {
     display: block;
 }
 
 
-.h1{
-    display:block;
+.h1 {
+    display: block;
 }
 </style>
