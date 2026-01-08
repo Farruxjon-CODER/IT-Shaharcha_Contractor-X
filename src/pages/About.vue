@@ -6,143 +6,155 @@ const title = ref('Pages Component');
 
 <template>
     <div>
-        <h1>{{ title }}</h1>
-        <br class="container">
-        <div class="abaut_us">
-            <div class="abaut_1">
-                <div class="img_content">
-                    <img src="../../img/7.png" alt="">
-                </div>
-                <div class="text_content">
-                    <h5>/ABOUT US</h5>
-                    <h1>A team of reliable and <br> experienced <br> contractors</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique imperdiet <br> nisi metus,
-                        viverra nulla aliquet dui porta porttitor neque lectus diam justo <br> lobortis purus in
-                        elit,
-                        elementum
-                        dignissim
-                        nullam vitae pellentesque aliquet <br> aliquam sagittis pulvinar egestas morbi suspendisse
-                        eleifend.
-                    </p>
-                    <div class="price">
-                        <div class="one">
-                            <h1><span>+</span>350</h1>
-                            <p>Executed Projects</p>
-
-                        </div>
-                        <div class="two">
-                            <h1>12<span>Y</span></h1>
-                            <p>Experience</p>
-
-                        </div>
-                        <div class="three">
-                            <h1><span>+</span>400</h1>
-                            <p>Satisfied Clients</p>
-
-                        </div>
-                        <br>
-                    </div>
-                    <a href="#" class="btn">About our company</a>
-                </div>
+        <div class="home">
+            <div>
+                <nav>
+                    <ul>
+                        <li><router-link to="/">Home</router-link></li>
+                        <li><router-link to="/about">About</router-link></li>
+                        <li><router-link to="/Blog">Blog</router-link></li>
+                        <li><router-link to="/Pages">Pages</router-link></li>
+                        <li><router-link to="/contact">Contact</router-link></li>
+                    </ul>
+                </nav>
             </div>
-            <div class="abaut_2">
-                <div class="info">
-                    <div class="text_content">
-                        <h5>/OUR SERVICES</h5>
-                        <h1>A comprehensive <br> set of services</h1>
+            <h1>{{ title }}</h1>
+            <br class="container">
+            <div class="abaut_us">
+                <div class="abaut_1">
+                    <div class="img_content">
+                        <img src="../../img/7.png" alt="">
                     </div>
-                    <div class="btns">
-                        <a href="#" class="btn_1">Get a quote</a>
-                        <a href="#" class="btn_2">Browse services</a>
+                    <div class="text_content">
+                        <h5>/ABOUT US</h5>
+                        <h1>A team of reliable and <br> experienced <br> contractors</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique imperdiet <br> nisi metus,
+                            viverra nulla aliquet dui porta porttitor neque lectus diam justo <br> lobortis purus in
+                            elit,
+                            elementum
+                            dignissim
+                            nullam vitae pellentesque aliquet <br> aliquam sagittis pulvinar egestas morbi suspendisse
+                            eleifend.
+                        </p>
+                        <div class="price">
+                            <div class="one">
+                                <h1><span>+</span>350</h1>
+                                <p>Executed Projects</p>
+
+                            </div>
+                            <div class="two">
+                                <h1>12<span>Y</span></h1>
+                                <p>Experience</p>
+
+                            </div>
+                            <div class="three">
+                                <h1><span>+</span>400</h1>
+                                <p>Satisfied Clients</p>
+
+                            </div>
+                            <br>
+                        </div>
+                        <a href="#" class="btn">About our company</a>
                     </div>
                 </div>
-                <div class="cards">
-                    <div class="cards_wrapper_top">
-                        <div class="card_1">
-                            <img src="../../img/IMAGE (1).png" alt="">
-                            <h1>Project Planning</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit quis eget morbi
-                                fermentum <br>
-                                sagittis, et mi lacus ornare tincidunt id.</p>
-                            <div class="learn_more">
-                                <div class="color"></div>
-                                <h6>Learn more</h6>
+                <div class="abaut_2">
+                    <div class="info">
+                        <div class="text_content">
+                            <h5>/OUR SERVICES</h5>
+                            <h1>A comprehensive <br> set of services</h1>
+                        </div>
+                        <div class="btns">
+                            <a href="#" class="btn_1">Get a quote</a>
+                            <a href="#" class="btn_2">Browse services</a>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="cards_wrapper_top">
+                            <div class="card_1">
+                                <img src="../../img/IMAGE (1).png" alt="">
+                                <h1>Project Planning</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit quis eget morbi
+                                    fermentum <br>
+                                    sagittis, et mi lacus ornare tincidunt id.</p>
+                                <div class="learn_more">
+                                    <div class="color"></div>
+                                    <h6>Learn more</h6>
+                                </div>
+                            </div>
+                            <div class="card_2">
+                                <img src="../../img/IMAGE (2).png" alt="">
+                                <h1>Project Management</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit quis eget morbi
+                                    fermentum <br>
+                                    sagittis, et mi lacus ornare tincidunt id.</p>
+                                <div class="learn_more">
+                                    <div class="color"></div>
+                                    <h6>Learn more</h6>
+                                </div>
+                            </div>
+                            <div class="card_3">
+                                <img src="../../img/IMAGE (3).png" alt="">
+                                <h1>General Contracting</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit quis eget morbi
+                                    fermentum <br>
+                                    sagittis, et mi lacus ornare tincidunt id.</p>
+                                <div class="learn_more">
+                                    <div class="color"></div>
+                                    <h6>Learn more</h6>
+                                </div>
                             </div>
                         </div>
-                        <div class="card_2">
-                            <img src="../../img/IMAGE (2).png" alt="">
-                            <h1>Project Management</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit quis eget morbi
-                                fermentum <br>
-                                sagittis, et mi lacus ornare tincidunt id.</p>
-                            <div class="learn_more">
-                                <div class="color"></div>
-                                <h6>Learn more</h6>
+                        <div class="cards_wrapper_bottom">
+                            <div class="card_4">
+                                <img src="../../img/IMAGE (4).png" alt="">
+                                <h1>Interior Design</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit quis eget morbi
+                                    fermentum <br>
+                                    sagittis, et mi lacus ornare tincidunt id.</p>
+                                <div class="learn_more">
+                                    <div class="color"></div>
+                                    <h6>Learn more</h6>
+                                </div>
                             </div>
-                        </div>
-                        <div class="card_3">
-                            <img src="../../img/IMAGE (3).png" alt="">
-                            <h1>General Contracting</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit quis eget morbi
-                                fermentum <br>
-                                sagittis, et mi lacus ornare tincidunt id.</p>
-                            <div class="learn_more">
-                                <div class="color"></div>
-                                <h6>Learn more</h6>
+                            <div class="card_5">
+                                <img src="../../img/IMAGE (5).png" alt="">
+                                <h1>Exterior Design</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit quis eget morbi
+                                    fermentum <br>
+                                    sagittis, et mi lacus ornare tincidunt id.</p>
+                                <div class="learn_more">
+                                    <div class="color"></div>
+                                    <h6>Learn more</h6>
+                                </div>
+                            </div>
+                            <div class="card_6">
+                                <img src="../../img/IMAGE.png" alt="">
+                                <h1>Space Planning</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit quis eget morbi
+                                    fermentum <br>
+                                    sagittis, et mi lacus ornare tincidunt id.</p>
+                                <div class="learn_more">
+                                    <div class="color"></div>
+                                    <h6>Learn more</h6>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="cards_wrapper_bottom">
-                        <div class="card_4">
-                            <img src="../../img/IMAGE (4).png" alt="">
-                            <h1>Interior Design</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit quis eget morbi
-                                fermentum <br>
-                                sagittis, et mi lacus ornare tincidunt id.</p>
-                            <div class="learn_more">
-                                <div class="color"></div>
-                                <h6>Learn more</h6>
-                            </div>
-                        </div>
-                        <div class="card_5">
-                            <img src="../../img/IMAGE (5).png" alt="">
-                            <h1>Exterior Design</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit quis eget morbi
-                                fermentum <br>
-                                sagittis, et mi lacus ornare tincidunt id.</p>
-                            <div class="learn_more">
-                                <div class="color"></div>
-                                <h6>Learn more</h6>
-                            </div>
-                        </div>
-                        <div class="card_6">
-                            <img src="../../img/IMAGE.png" alt="">
-                            <h1>Space Planning</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit quis eget morbi
-                                fermentum <br>
-                                sagittis, et mi lacus ornare tincidunt id.</p>
-                            <div class="learn_more">
-                                <div class="color"></div>
-                                <h6>Learn more</h6>
-                            </div>
-                        </div>
-                    </div>
+                    <h1>Ready to pull the trigger? Get a quote today.</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit varius rhoncus, nullam pulvinar
+                        ut
+                        sollicitudin dictumst porttitor porttitor quis.</p>
+                    <button>Get a quote</button>
+                    <button>Our services</button>
                 </div>
                 <h1>Ready to pull the trigger? Get a quote today.</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit varius rhoncus, nullam pulvinar
-                    ut
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit varius rhoncus, nullam pulvinar ut
                     sollicitudin dictumst porttitor porttitor quis.</p>
                 <button>Get a quote</button>
                 <button>Our services</button>
             </div>
-            <h1>Ready to pull the trigger? Get a quote today.</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit varius rhoncus, nullam pulvinar ut
-                sollicitudin dictumst porttitor porttitor quis.</p>
-            <button>Get a quote</button>
-            <button>Our services</button>
         </div>
     </div>
-    <!-- </div> -->
 
 </template>
 
@@ -154,6 +166,36 @@ const title = ref('Pages Component');
     padding: 0px;
     box-sizing: border-box;
     font-family: "Barlow", sans-serif;
+}
+
+.home {
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px 0;
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        gap: 60px;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        padding: 10px 15px;
+        color: #333;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    nav ul li a:hover {
+        color: #007bff;
+    }
 }
 
 .container {
