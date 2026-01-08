@@ -1,7 +1,9 @@
 <script setup>
-import { ref } from "vue";
+  import {ref} from "vue";
 
-const title = ref("Home Component");
+  const title = ref("Home Component");
+
+
 </script>
 
 <template>
@@ -17,7 +19,7 @@ const title = ref("Home Component");
         </ul>
       </nav>
     </div>
-    <!-- <h1>{{ title }}</h1> -->
+    <h1>{{ title }}</h1>
     <h1>We provide effective contracting services</h1>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit varius
@@ -28,13 +30,14 @@ const title = ref("Home Component");
       <button class="btn1">Get a quote</button>
       <button class="btn2">Our services</button>
     </div>
-
-    <img src="../../img/IMAGE.png" alt="" />
+    <img src="../../img/IMAGE.png" alt="">
   </div>
 </template>
 
+//
 <style scoped>
 .home {
+
   nav {
     display: flex;
     justify-content: flex-end;
@@ -119,10 +122,19 @@ p {
 }
 </style>
 
+
+
+
+<!-- <script setup>
+import { ref } from "vue";
+
+const title = ref("Home Component");
+</script>
+
 <template>
   <div class="home">
-    <!-- NAVBAR -->
-    <nav class="navbar">
+    NAVBAR --fwwwfsafwew c acwdfweaw23wz
+<nav class="navbar">
       <ul>
         <li><router-link to="/">Home</router-link></li>
         <li><router-link to="/about">About</router-link></li>
@@ -130,16 +142,13 @@ p {
         <li><router-link to="/pages">Pages</router-link></li>
         <li><router-link to="/contact">Contact</router-link></li>
         <li><router-link to="">Cart(0)</router-link></li>
-        <li>
-          <button style="background-color: orange; width: 129px; height: 50px">
-            <router-link to="">Get a quote</router-link>
-          </button>
-        </li>
+        <li><button style="background-color: orange; width: 129px;height: 50px;  "><router-link to="">Get a
+              quote</router-link></button></li>
       </ul>
     </nav>
 
-    <!-- CONTENT -->
-    <div class="content">
+<!-- CONTENT -->
+<!-- <div class="content">
       <h1>We provide effective contracting services</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit varius
@@ -150,11 +159,11 @@ p {
         <button class="btn1">Get a quote</button>
         <button class="btn2">Our services</button>
       </div>
-    </div>
-  </div>
-</template>
+</div>
+</div>
+</template> -->
 
-<style scoped>
+<!-- <style scoped>
 /* ASOSIY BACKGROUND */
 .home {
   min-height: 100vh;
@@ -257,4 +266,4 @@ p {
 .btn2:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
-</style>
+</style> -->

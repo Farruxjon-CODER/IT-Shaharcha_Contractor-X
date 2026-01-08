@@ -6,8 +6,20 @@
 
 <template>
     <div>
-        <h1>{{ title }}</h1>
-        <div class="container">
+        <div class="home">
+            <div>
+                <nav>
+                    <ul>
+                        <li><router-link to="/">Home</router-link></li>
+                        <li><router-link to="/about">About</router-link></li>
+                        <li><router-link to="/Blog">Blog</router-link></li>
+                        <li><router-link to="/Pages">Pages</router-link></li>
+                        <li><router-link to="/contact">Contact</router-link></li>
+                    </ul>
+                </nav>
+            </div>
+            <h1>{{ title }}</h1>
+            <br class="container">
             <div class="abaut_us">
                 <div class="abaut_1">
                     <div class="img_content">
@@ -135,7 +147,11 @@
                     <button>Get a quote</button>
                     <button>Our services</button>
                 </div>
-
+                <h1>Ready to pull the trigger? Get a quote today.</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit varius rhoncus, nullam pulvinar ut
+                    sollicitudin dictumst porttitor porttitor quis.</p>
+                <button>Get a quote</button>
+                <button>Our services</button>
             </div>
         </div>
     </div>
@@ -145,18 +161,48 @@
 <style scoped>
     @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-    * {
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-        font-family: "Barlow", sans-serif;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Barlow", sans-serif;
+}
+
+.home {
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px 0;
     }
 
-    .container {
-        width: 1500px;
-        max-width: 95%;
-        margin: auto;
+    nav ul {
+        display: flex;
+        list-style: none;
+        gap: 60px;
+        margin: 0;
+        padding: 0;
+        align-items: center;
     }
+
+    nav ul li a {
+        text-decoration: none;
+        padding: 10px 15px;
+        color: #333;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    nav ul li a:hover {
+        color: #007bff;
+    }
+}
+
+.container {
+    width: 1500px;
+    max-width: 95%;
+    margin: auto;
+}
 
     .abaut_us .abaut_1 {
         display: flex;
