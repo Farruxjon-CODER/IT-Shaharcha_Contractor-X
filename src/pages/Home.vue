@@ -38,6 +38,23 @@
 <style scoped>
 .home {
 
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
   nav {
     display: flex;
     justify-content: flex-end;
