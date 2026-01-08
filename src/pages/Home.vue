@@ -37,6 +37,28 @@
 //
 <style scoped>
 .home {
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+  }
 
   nav {
     display: flex;
@@ -229,7 +251,7 @@ h1 {
 p {
   font-size: 18px;
   color: rgba(255, 255, 255, 0.85);
-  line-height: 2.0;
+  line-height: 2;
   max-width: 600px;
   margin-bottom: 35px;
 }

@@ -1,7 +1,7 @@
 <script setup>
-import { ref } from 'vue';
+    import { ref } from 'vue';
 
-const title = ref('Pages Component');
+    const title = ref('Pages Component');
 </script>
 
 <template>
