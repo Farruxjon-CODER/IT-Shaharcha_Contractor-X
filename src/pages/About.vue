@@ -29,7 +29,7 @@
                         <div class="text_content">
                             <h5>/ABOUT US</h5>
                             <h1>A team of reliable and <br> experienced <br> contractors</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique imperdiet <br> nisi
+                            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique imperdiet <br> nisi
                                 metus,
                                 viverra nulla aliquet dui porta porttitor neque lectus diam justo <br> lobortis purus in
                                 elit,
@@ -143,13 +143,6 @@
                                 </div>
                             </div>
                         </div>
-                        <h1>Ready to pull the trigger? Get a quote today.</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit varius rhoncus, nullam
-                            pulvinar
-                            ut
-                            sollicitudin dictumst porttitor porttitor quis.</p>
-                        <button>Get a quote</button>
-                        <button>Our services</button>
                     </div>
                     <h1>Ready to pull the trigger? Get a quote today.</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit varius rhoncus, nullam pulvinar
@@ -205,12 +198,12 @@
     }
 
     .container {
-        margin: 0px 120px !important;
+        margin: 0px 150px !important;
         max-width: 95%;
         margin: auto;
     }
 
-    .abaut_us{
+    .abaut_us {
         background-size: cover;
     }
 
@@ -218,14 +211,18 @@
         display: flex;
         gap: 150px;
         margin-bottom: 285px;
-        justify-content: center;
-        margin-left: 80px;
+        justify-content: space-between;
         background-size: cover;
     }
 
     .abaut_us .abaut_1 .img_content img {
         width: 478.625px;
         height: 681.359375px;
+    }
+
+    .abaut_us .abaut_1 .text_content {
+        position: relative;
+        right: 100px;
     }
 
     .abaut_us .abaut_1 .text_content h5 {
@@ -244,7 +241,7 @@
         margin-top: 18px;
     }
 
-    .abaut_us .abaut_1 .text_content p {
+    .abaut_us .abaut_1 .text_content .paragraph {
         font-family: "Barlow";
         font-weight: 400;
         font-size: 18px;
@@ -256,7 +253,7 @@
     .abaut_us .abaut_1 .text_content .price {
         display: flex;
         gap: 90px;
-        margin-bottom: 30px;
+        margin-bottom: 35px;
         margin-top: 35px;
     }
 
@@ -380,8 +377,9 @@
         line-height: 61.99px;
     }
 
-    .abaut_us .abaut_2 .info .btns{
+    .abaut_us .abaut_2 .info .btns {
         margin-top: 40px;
+        background-size: cover;
     }
 
     .abaut_us .abaut_2 .info .btns .btn_1 {
@@ -398,7 +396,7 @@
         display: inline-block;
         padding-top: 26px;
         margin-right: 29px;
-        
+
     }
 
     .abaut_us .abaut_2 .info .btns .btn_2 {
@@ -414,406 +412,614 @@
         text-align: center;
         line-height: 20px;
         padding-top: 24px;
-        
+
     }
 
     .abaut_us .abaut_2 .cards .cards_wrapper_top {
         display: flex;
+        justify-content: space-between;
+        margin-top: 65px;
     }
 
-    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1{
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 {
         width: 364px;
         height: 296px;
-        box-shadow:1px 1px 5px black;
     }
 
-    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 img{
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 img {
         width: 70px;
         height: 68px;
     }
 
-    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 h1{
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 h1 {
         font-size: 34px;
         font-weight: 400;
         color: #191919;
-        font-family:"Barlow" , sans-serif;
+        font-family: "Barlow", sans-serif;
         line-height: 48.01px;
         margin-top: 25px;
     }
 
-    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 p{
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 p {
         font-size: 18px;
         font-weight: 400;
-        font-family:"Barlow" , sans-serif;
+        font-family: "Barlow", sans-serif;
         color: #605E5D;
         line-height: 30.01px;
         margin-top: 13px;
     }
 
-    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 .learn_more{
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 .learn_more {
         display: flex;
         gap: 10px;
     }
 
-    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 .learn_more .color{
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 .learn_more .color {
         width: 30px;
         height: 30px;
         margin-top: 18px;
     }
 
-    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 .learn_more h6{
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 .learn_more h6 {
         font-size: 18px;
         font-weight: 400;
         color: #191919;
-        font-family:"Barlow" , sans-serif;
+        font-family: "Barlow", sans-serif;
         line-height: 20px;
         margin-top: 23px;
     }
 
-    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2{
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 {
         width: 364px;
         height: 296px;
-        box-shadow:1px 1px 5px black;
     }
 
-    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 img{
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 img {
         width: 70px;
         height: 68px;
     }
 
-    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 h1{
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 h1 {
         font-size: 34px;
         font-weight: 400;
         color: #191919;
-        font-family:"Barlow" , sans-serif;
+        font-family: "Barlow", sans-serif;
         line-height: 48.01px;
         margin-top: 25px;
     }
 
-    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 p{
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 p {
         font-size: 18px;
         font-weight: 400;
-        font-family:"Barlow" , sans-serif;
+        font-family: "Barlow", sans-serif;
         color: #605E5D;
         line-height: 30.01px;
         margin-top: 13px;
     }
 
-    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 .learn_more{
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 .learn_more {
         display: flex;
         gap: 10px;
     }
 
-    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 .learn_more .color{
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 .learn_more .color {
         width: 30px;
         height: 30px;
         margin-top: 18px;
     }
 
-    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 .learn_more h6{
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 .learn_more h6 {
         font-size: 18px;
         font-weight: 400;
         color: #191919;
-        font-family:"Barlow" , sans-serif;
+        font-family: "Barlow", sans-serif;
         line-height: 20px;
         margin-top: 23px;
     }
 
-    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3{
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 {
         width: 364px;
         height: 296px;
-        box-shadow:1px 1px 5px black;
     }
 
-    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 img{
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 img {
         width: 70px;
         height: 68px;
     }
 
-    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 h1{
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 h1 {
         font-size: 34px;
         font-weight: 400;
         color: #191919;
-        font-family:"Barlow" , sans-serif;
+        font-family: "Barlow", sans-serif;
         line-height: 48.01px;
         margin-top: 25px;
     }
 
-    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 p{
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 p {
         font-size: 18px;
         font-weight: 400;
-        font-family:"Barlow" , sans-serif;
+        font-family: "Barlow", sans-serif;
         color: #605E5D;
         line-height: 30.01px;
         margin-top: 13px;
     }
 
-    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 .learn_more{
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 .learn_more {
         display: flex;
         gap: 10px;
     }
 
-    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 .learn_more .color{
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 .learn_more .color {
         width: 30px;
         height: 30px;
         margin-top: 18px;
     }
 
-    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 .learn_more h6{
+    .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 .learn_more h6 {
         font-size: 18px;
         font-weight: 400;
         color: #191919;
-        font-family:"Barlow" , sans-serif;
-        line-height: 20px;
-        margin-top: 23px;
-    }
-
-    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4{
-        width: 364px;
-        height: 296px;
-        box-shadow:1px 1px 5px black;
-    }
-
-    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 img{
-        width: 70px;
-        height: 68px;
-    }
-
-    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 h1{
-        font-size: 34px;
-        font-weight: 400;
-        color: #191919;
-        font-family:"Barlow" , sans-serif;
-        line-height: 48.01px;
-        margin-top: 25px;
-    }
-
-    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 p{
-        font-size: 18px;
-        font-weight: 400;
-        font-family:"Barlow" , sans-serif;
-        color: #605E5D;
-        line-height: 30.01px;
-        margin-top: 13px;
-    }
-
-    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 .learn_more{
-        display: flex;
-        gap: 10px;
-    }
-
-    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 .learn_more .color{
-        width: 30px;
-        height: 30px;
-        margin-top: 18px;
-    }
-
-    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 .learn_more h6{
-        font-size: 18px;
-        font-weight: 400;
-        color: #191919;
-        font-family:"Barlow" , sans-serif;
-        line-height: 20px;
-        margin-top: 23px;
-    }
-
-    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5{
-        width: 364px;
-        height: 296px;
-        box-shadow:1px 1px 5px black;
-    }
-
-    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 img{
-        width: 70px;
-        height: 68px;
-    }
-
-    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 h1{
-        font-size: 34px;
-        font-weight: 400;
-        color: #191919;
-        font-family:"Barlow" , sans-serif;
-        line-height: 48.01px;
-        margin-top: 25px;
-    }
-
-    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 p{
-        font-size: 18px;
-        font-weight: 400;
-        font-family:"Barlow" , sans-serif;
-        color: #605E5D;
-        line-height: 30.01px;
-        margin-top: 13px;
-    }
-
-    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 .learn_more{
-        display: flex;
-        gap: 10px;
-    }
-
-    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 .learn_more .color{
-        width: 30px;
-        height: 30px;
-        margin-top: 18px;
-    }
-
-    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 .learn_more h6{
-        font-size: 18px;
-        font-weight: 400;
-        color: #191919;
-        font-family:"Barlow" , sans-serif;
-        line-height: 20px;
-        margin-top: 23px;
-    }
-
-    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6{
-        width: 364px;
-        height: 296px;
-        box-shadow:1px 1px 5px black;
-    }
-
-    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 img{
-        width: 70px;
-        height: 68px;
-    }
-
-    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 h1{
-        font-size: 34px;
-        font-weight: 400;
-        color: #191919;
-        font-family:"Barlow" , sans-serif;
-        line-height: 48.01px;
-        margin-top: 25px;
-    }
-
-    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 p{
-        font-size: 18px;
-        font-weight: 400;
-        font-family:"Barlow" , sans-serif;
-        color: #605E5D;
-        line-height: 30.01px;
-        margin-top: 13px;
-    }
-
-    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 .learn_more{
-        display: flex;
-        gap: 10px;
-    }
-
-    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 .learn_more .color{
-        width: 30px;
-        height: 30px;
-        margin-top: 18px;
-    }
-
-    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 .learn_more h6{
-        font-size: 18px;
-        font-weight: 400;
-        color: #191919;
-        font-family:"Barlow" , sans-serif;
+        font-family: "Barlow", sans-serif;
         line-height: 20px;
         margin-top: 23px;
     }
 
     .abaut_us .abaut_2 .cards .cards_wrapper_bottom {
         display: flex;
+        justify-content: space-between;
         margin-bottom: 30px;
         margin-top: 90px;
     }
 
-    .abaut_us .abaut_1 .text_content .price .one h1 {
-        font-family: "Barlow", sans-serif;
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 {
+        width: 364px;
+        height: 296px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 img {
+        width: 70px;
+        height: 68px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 h1 {
+        font-size: 34px;
+        font-weight: 400;
         color: #191919;
-        font-weight: 400;
-        font-size: 72px;
-        line-height: 84.02px;
-        text-align: center;
-    }
-
-    .abaut_us .abaut_1 .text_content .price .one h1 span {
-        font-weight: 400;
-        font-size: 72px;
         font-family: "Barlow", sans-serif;
-        line-height: 84.02px;
-        text-align: center;
-        color: #FF4D01;
+        line-height: 48.01px;
+        margin-top: 25px;
     }
 
-    .abaut_us .abaut_1 .text_content .price .one p {
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 p {
         font-size: 18px;
         font-weight: 400;
         font-family: "Barlow", sans-serif;
-        color: #989899;
-        line-height: 20px;
-        text-align: center;
+        color: #605E5D;
+        line-height: 30.01px;
+        margin-top: 13px;
     }
 
-    .abaut_us .abaut_1 .text_content .price .two h1 {
-        font-size: 72px;
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 .learn_more {
+        display: flex;
+        gap: 10px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 .learn_more .color {
+        width: 30px;
+        height: 30px;
+        margin-top: 18px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 .learn_more h6 {
+        font-size: 18px;
         font-weight: 400;
-        font-family: "Barlow";
         color: #191919;
-        line-height: 84.02px;
-        text-align: center;
-    }
-
-    .abaut_us .abaut_1 .text_content .price .two h1 span {
-        font-size: 72px;
-        font-weight: 400;
         font-family: "Barlow", sans-serif;
-        color: #FF4D01;
-        line-height: 84.02px;
-        text-align: center;
+        line-height: 20px;
+        margin-top: 23px;
     }
 
-    .abaut_us .abaut_1 .text_content .price .two p {
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 {
+        width: 364px;
+        height: 296px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 img {
+        width: 70px;
+        height: 68px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 h1 {
+        font-size: 34px;
+        font-weight: 400;
+        color: #191919;
+        font-family: "Barlow", sans-serif;
+        line-height: 48.01px;
+        margin-top: 25px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 p {
         font-size: 18px;
         font-weight: 400;
         font-family: "Barlow", sans-serif;
-        text-align: center;
-        color: #989899;
-        line-height: 20px;
+        color: #605E5D;
+        line-height: 30.01px;
+        margin-top: 13px;
     }
 
-    .abaut_us .abaut_1 .text_content .price .three h1 {
-        font-size: 72px;
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 .learn_more {
+        display: flex;
+        gap: 10px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 .learn_more .color {
+        width: 30px;
+        height: 30px;
+        margin-top: 18px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 .learn_more h6 {
+        font-size: 18px;
         font-weight: 400;
         color: #191919;
-        font-family: "Barlow";
-        text-align: center;
-        line-height: 84.02px;
+        font-family: "Barlow", sans-serif;
+        line-height: 20px;
+        margin-top: 23px;
     }
 
-    .abaut_us .abaut_1 .text_content .price .three h1 span {
-        font-size: 72px;
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 {
+        width: 364px;
+        height: 296px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 img {
+        width: 70px;
+        height: 68px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 h1 {
+        font-size: 34px;
         font-weight: 400;
-        font-family: "Barlow";
-        color: #FF4D01;
-        line-height: 84.02px;
-        text-align: center;
+        color: #191919;
+        font-family: "Barlow", sans-serif;
+        line-height: 48.01px;
+        margin-top: 25px;
     }
 
-    .abaut_us .abaut_1 .text_content .price .three p {
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 p {
         font-size: 18px;
         font-weight: 400;
         font-family: "Barlow", sans-serif;
-        color: #989899;
-        text-align: center;
-        line-height: 20px;
+        color: #605E5D;
+        line-height: 30.01px;
+        margin-top: 13px;
     }
 
-    .abaut_us .abaut_1 .text_content .btn {
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 .learn_more {
+        display: flex;
+        gap: 10px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 .learn_more .color {
+        width: 30px;
+        height: 30px;
+        margin-top: 18px;
+    }
+
+    .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 .learn_more h6 {
         font-size: 18px;
         font-weight: 400;
-        display: inline-block;
-        width: 237px;
-        height: 75px;
         color: #191919;
-        border: solid 2px #191919;
-        font-family: "Barlow";
+        font-family: "Barlow", sans-serif;
         line-height: 20px;
-        text-decoration: none;
-        text-align: center;
-        padding-top: 24px;
+        margin-top: 23px;
+    }
+
+    @media screen and (max-width:1440px) {
+        .abaut_us .abaut_1 .img_content img {
+            width: 440px;
+            height: 633px;
+        }
+
+        .abaut_us .abaut_1 .text_content h5 {
+            font-size: 18px;
+            margin-top: 53px;
+        }
+
+        .abaut_us .abaut_1 .text_content h1 {
+            font-size: 47px;
+            line-height: 52px;
+        }
+
+        .abaut_us .abaut_1 .text_content .paragraph {
+            font-size: 16px;
+            margin-top: 15px;
+        }
+
+        .abaut_us .abaut_1 .text_content .price{
+            margin-top: 25px;
+            margin-bottom: 47px;
+        }
+
+        .abaut_us .abaut_1 .price .one span{
+            font-size: 63px !important;
+        }
+
+        .abaut_us .abaut_1 .price .one h1 {
+            font-size: 63px !important;
+        }
+
+        .abaut_us .abaut_1 .text_content .price .one p{
+            font-size: 16px;
+            margin-top: -5px;
+        }
+
+        .abaut_us .abaut_1 .price .two span{
+            font-size: 63px !important;
+        }
+
+        .abaut_us .abaut_1 .price .two h1 {
+            font-size: 63px !important;
+        }
+
+        .abaut_us .abaut_1 .text_content .price .two p{
+            font-size: 16px;
+            margin-top: -5px;
+        }
+
+        .abaut_us .abaut_1 .price .three span{
+            font-size: 63px !important;
+        }
+
+        .abaut_us .abaut_1 .price .three h1 {
+            font-size: 63px !important;
+        }
+
+        .abaut_us .abaut_1 .text_content .price .three p{
+            font-size: 16px;
+            margin-top: -5px;
+        }
+
+        .abaut_us .abaut_1 .text_content .btn{
+            font-size: 16px;
+            width: 212px;
+            height: 65px;
+            padding-top: 19px;
+        }
+
+        .abaut_us .abaut_2 .info .text_content h5{
+            font-size: 18px;
+        }
+
+        .abaut_us .abaut_2 .info .text_content h1{
+            font-size: 50px;
+        }
+
+        .abaut_us .abaut_2 .info .btns{
+            gap: 2px;
+        }
+
+        .abaut_us .abaut_2 .info .btns .btn_1{
+            font-size: 16px;
+            width: 150px;
+            height: 65px;
+            padding-top: 21px;
+        }
+
+        .abaut_us .abaut_2 .info .btns .btn_2{
+            font-size: 16px;
+            width: 188px;
+            height: 65px;
+            padding-top: 18px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1{
+            width: 359px;
+            height: 295px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 img{
+            width: 64px;
+            height: 63px;
+            margin-top: -1px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 h1{
+            font-size: 30px;
+            margin-top: 23px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 p{
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 11px;
+        }
+
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 .learn_more .color{
+            width: 25px;
+            height: 25px;
+            margin-top: 13px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 .learn_more h6{
+            font-size: 16px;
+            margin-top: 14px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2{
+            width: 359px;
+            height: 295px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 img{
+            width: 64px;
+            height: 63px;
+            margin-top: -1px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 h1{
+            font-size: 30px;
+            margin-top: 23px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 p{
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 11px;
+        }
+
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 .learn_more .color{
+            width: 25px;
+            height: 25px;
+            margin-top: 13px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 .learn_more h6{
+            font-size: 16px;
+            margin-top: 14px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3{
+            width: 359px;
+            height: 295px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 img{
+            width: 64px;
+            height: 63px;
+            margin-top: -1px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 h1{
+            font-size: 30px;
+            margin-top: 23px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 p{
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 11px;
+        }
+
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 .learn_more .color{
+            width: 25px;
+            height: 25px;
+            margin-top: 13px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 .learn_more h6{
+            font-size: 16px;
+            margin-top: 14px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom{
+            margin-top: 42px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4{
+            width: 359px;
+            height: 295px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 img{
+            width: 64px;
+            height: 63px;
+            margin-top: -1px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 h1{
+            font-size: 30px;
+            margin-top: 23px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 p{
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 11px;
+        }
+
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 .learn_more .color{
+            width: 25px;
+            height: 25px;
+            margin-top: 13px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 .learn_more h6{
+            font-size: 16px;
+            margin-top: 14px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5{
+            width: 359px;
+            height: 295px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 img{
+            width: 64px;
+            height: 63px;
+            margin-top: -1px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 h1{
+            font-size: 30px;
+            margin-top: 23px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 p{
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 11px;
+        }
+
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 .learn_more .color{
+            width: 25px;
+            height: 25px;
+            margin-top: 13px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 .learn_more h6{
+            font-size: 16px;
+            margin-top: 14px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_3{
+            width: 359px;
+            height: 295px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 img{
+            width: 64px;
+            height: 63px;
+            margin-top: -1px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 h1{
+            font-size: 30px;
+            margin-top: 23px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 p{
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 11px;
+        }
+
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 .learn_more .color{
+            width: 25px;
+            height: 25px;
+            margin-top: 13px;
+        }
+
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 .learn_more h6{
+            font-size: 16px;
+            margin-top: 14px;
+        }
     }
 </style>
