@@ -29,7 +29,8 @@
                         <div class="text_content">
                             <h5>/ABOUT US</h5>
                             <h1>A team of reliable and <br> experienced <br> contractors</h1>
-                            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique imperdiet <br> nisi
+                            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique
+                                imperdiet <br> nisi
                                 metus,
                                 viverra nulla aliquet dui porta porttitor neque lectus diam justo <br> lobortis purus in
                                 elit,
@@ -221,8 +222,9 @@
     }
 
     .abaut_us .abaut_1 .text_content {
+        width: 610px;
         position: relative;
-        right: 100px;
+        right: 82px;
     }
 
     .abaut_us .abaut_1 .text_content h5 {
@@ -395,7 +397,7 @@
         background-color: #ff4d01;
         display: inline-block;
         padding-top: 26px;
-        margin-right: 29px;
+        margin-right: 28px;
 
     }
 
@@ -722,6 +724,12 @@
             height: 633px;
         }
 
+        .abaut_us .abaut_1 .text_content {
+            width: 575px;
+            position: relative;
+            right: 87px;
+        }
+
         .abaut_us .abaut_1 .text_content h5 {
             font-size: 18px;
             margin-top: 53px;
@@ -737,12 +745,12 @@
             margin-top: 15px;
         }
 
-        .abaut_us .abaut_1 .text_content .price{
+        .abaut_us .abaut_1 .text_content .price {
             margin-top: 25px;
             margin-bottom: 47px;
         }
 
-        .abaut_us .abaut_1 .price .one span{
+        .abaut_us .abaut_1 .price .one span {
             font-size: 63px !important;
         }
 
@@ -750,12 +758,12 @@
             font-size: 63px !important;
         }
 
-        .abaut_us .abaut_1 .text_content .price .one p{
+        .abaut_us .abaut_1 .text_content .price .one p {
             font-size: 16px;
             margin-top: -5px;
         }
 
-        .abaut_us .abaut_1 .price .two span{
+        .abaut_us .abaut_1 .price .two span {
             font-size: 63px !important;
         }
 
@@ -763,12 +771,12 @@
             font-size: 63px !important;
         }
 
-        .abaut_us .abaut_1 .text_content .price .two p{
+        .abaut_us .abaut_1 .text_content .price .two p {
             font-size: 16px;
             margin-top: -5px;
         }
 
-        .abaut_us .abaut_1 .price .three span{
+        .abaut_us .abaut_1 .price .three span {
             font-size: 63px !important;
         }
 
@@ -776,250 +784,257 @@
             font-size: 63px !important;
         }
 
-        .abaut_us .abaut_1 .text_content .price .three p{
+        .abaut_us .abaut_1 .text_content .price .three p {
             font-size: 16px;
             margin-top: -5px;
         }
 
-        .abaut_us .abaut_1 .text_content .btn{
+        .abaut_us .abaut_1 .text_content .btn {
             font-size: 16px;
             width: 212px;
             height: 65px;
             padding-top: 19px;
         }
 
-        .abaut_us .abaut_2 .info .text_content h5{
+        .abaut_us .abaut_2 .info .text_content h5 {
             font-size: 18px;
         }
 
-        .abaut_us .abaut_2 .info .text_content h1{
+        .abaut_us .abaut_2 .info .text_content h1 {
             font-size: 50px;
         }
 
-        .abaut_us .abaut_2 .info .btns{
+        .abaut_us .abaut_2 .info .btns {
             gap: 2px;
         }
 
-        .abaut_us .abaut_2 .info .btns .btn_1{
+        .abaut_us .abaut_2 .info .btns .btn_1 {
             font-size: 16px;
             width: 150px;
             height: 65px;
             padding-top: 21px;
         }
 
-        .abaut_us .abaut_2 .info .btns .btn_2{
+        .abaut_us .abaut_2 .info .btns .btn_2 {
             font-size: 16px;
             width: 188px;
             height: 65px;
             padding-top: 18px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1{
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 {
             width: 359px;
             height: 295px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 img{
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 img {
             width: 64px;
             height: 63px;
             margin-top: -1px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 h1{
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 h1 {
             font-size: 30px;
             margin-top: 23px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 p{
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 p {
             font-size: 16px;
             line-height: 24px;
             margin-top: 11px;
         }
 
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 .learn_more .color{
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 .learn_more .color {
             width: 25px;
             height: 25px;
             margin-top: 13px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 .learn_more h6{
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 .learn_more h6 {
             font-size: 16px;
             margin-top: 14px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2{
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 {
             width: 359px;
             height: 295px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 img{
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 img {
             width: 64px;
             height: 63px;
             margin-top: -1px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 h1{
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 h1 {
             font-size: 30px;
             margin-top: 23px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 p{
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 p {
             font-size: 16px;
             line-height: 24px;
             margin-top: 11px;
         }
 
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 .learn_more .color{
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 .learn_more .color {
             width: 25px;
             height: 25px;
             margin-top: 13px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 .learn_more h6{
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 .learn_more h6 {
             font-size: 16px;
             margin-top: 14px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3{
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 {
             width: 359px;
             height: 295px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 img{
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 img {
             width: 64px;
             height: 63px;
             margin-top: -1px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 h1{
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 h1 {
             font-size: 30px;
             margin-top: 23px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 p{
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 p {
             font-size: 16px;
             line-height: 24px;
             margin-top: 11px;
         }
 
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 .learn_more .color{
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 .learn_more .color {
             width: 25px;
             height: 25px;
             margin-top: 13px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 .learn_more h6{
+        .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 .learn_more h6 {
             font-size: 16px;
             margin-top: 14px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_bottom{
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom {
             margin-top: 42px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4{
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 {
             width: 359px;
             height: 295px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 img{
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 img {
             width: 64px;
             height: 63px;
             margin-top: -1px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 h1{
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 h1 {
             font-size: 30px;
             margin-top: 23px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 p{
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 p {
             font-size: 16px;
             line-height: 24px;
             margin-top: 11px;
         }
 
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 .learn_more .color{
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 .learn_more .color {
             width: 25px;
             height: 25px;
             margin-top: 13px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 .learn_more h6{
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 .learn_more h6 {
             font-size: 16px;
             margin-top: 14px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5{
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 {
             width: 359px;
             height: 295px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 img{
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 img {
             width: 64px;
             height: 63px;
             margin-top: -1px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 h1{
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 h1 {
             font-size: 30px;
             margin-top: 23px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 p{
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 p {
             font-size: 16px;
             line-height: 24px;
             margin-top: 11px;
         }
 
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 .learn_more .color{
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 .learn_more .color {
             width: 25px;
             height: 25px;
             margin-top: 13px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 .learn_more h6{
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 .learn_more h6 {
             font-size: 16px;
             margin-top: 14px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_3{
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_3 {
             width: 359px;
             height: 295px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 img{
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 img {
             width: 64px;
             height: 63px;
             margin-top: -1px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 h1{
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 h1 {
             font-size: 30px;
             margin-top: 23px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 p{
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 p {
             font-size: 16px;
             line-height: 24px;
             margin-top: 11px;
         }
 
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 .learn_more .color{
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 .learn_more .color {
             width: 25px;
             height: 25px;
             margin-top: 13px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 .learn_more h6{
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 .learn_more h6 {
             font-size: 16px;
             margin-top: 14px;
+        }
+    }
+
+    @media screen and (max-width:1352px) {
+        .abaut_us .abaut_1 .text_content h5 {
+            font-size: 18px;
+            margin-top: 53px;
         }
     }
 </style>
