@@ -211,7 +211,7 @@
     .abaut_us .abaut_1 {
         display: flex;
         gap: 150px;
-        margin-bottom: 285px;
+        margin-bottom: 265px;
         justify-content: space-between;
         background-size: cover;
     }
@@ -719,9 +719,14 @@
     }
 
     @media screen and (max-width:1440px) {
+
+        .abaut_us .abaut_1{
+            margin-bottom: 240px;
+        }
+
         .abaut_us .abaut_1 .img_content img {
-            width: 440px;
-            height: 633px;
+            width: 428px;
+            height: 598px;
         }
 
         .abaut_us .abaut_1 .text_content {
@@ -731,18 +736,19 @@
         }
 
         .abaut_us .abaut_1 .text_content h5 {
-            font-size: 18px;
+            font-size: 17px;
             margin-top: 53px;
         }
 
         .abaut_us .abaut_1 .text_content h1 {
-            font-size: 47px;
-            line-height: 52px;
+            font-size: 45px;
+            line-height: 47px;
         }
 
         .abaut_us .abaut_1 .text_content .paragraph {
-            font-size: 16px;
+            font-size: 15px;
             margin-top: 15px;
+            line-height: 26px;
         }
 
         .abaut_us .abaut_1 .text_content .price {
@@ -751,177 +757,175 @@
         }
 
         .abaut_us .abaut_1 .price .one span {
-            font-size: 63px !important;
+            font-size: 61px !important;
         }
 
         .abaut_us .abaut_1 .price .one h1 {
-            font-size: 63px !important;
+            font-size: 61px !important;
         }
 
         .abaut_us .abaut_1 .text_content .price .one p {
-            font-size: 16px;
+            font-size: 15px;
             margin-top: -5px;
         }
 
         .abaut_us .abaut_1 .price .two span {
-            font-size: 63px !important;
+            font-size: 61px !important;
         }
 
         .abaut_us .abaut_1 .price .two h1 {
-            font-size: 63px !important;
+            font-size: 61px !important;
         }
 
         .abaut_us .abaut_1 .text_content .price .two p {
-            font-size: 16px;
+            font-size: 15px;
             margin-top: -5px;
         }
 
         .abaut_us .abaut_1 .price .three span {
-            font-size: 63px !important;
+            font-size: 61px !important;
         }
 
         .abaut_us .abaut_1 .price .three h1 {
-            font-size: 63px !important;
+            font-size: 61px !important;
         }
 
         .abaut_us .abaut_1 .text_content .price .three p {
-            font-size: 16px;
+            font-size: 15px;
             margin-top: -5px;
         }
 
         .abaut_us .abaut_1 .text_content .btn {
-            font-size: 16px;
-            width: 212px;
-            height: 65px;
-            padding-top: 19px;
+            font-size: 15px;
+            width: 202px;
+            height: 62px;
+            padding-top: 18px;
         }
 
         .abaut_us .abaut_2 .info .text_content h5 {
-            font-size: 18px;
+            font-size: 17px;
+            margin-bottom: 9px;
         }
 
         .abaut_us .abaut_2 .info .text_content h1 {
-            font-size: 50px;
-        }
-
-        .abaut_us .abaut_2 .info .btns {
-            gap: 2px;
+            font-size: 47px;
         }
 
         .abaut_us .abaut_2 .info .btns .btn_1 {
-            font-size: 16px;
-            width: 150px;
-            height: 65px;
+            font-size: 15px;
+            width: 144px;
+            height: 62px;
             padding-top: 21px;
+            margin-right: 24px;
         }
 
         .abaut_us .abaut_2 .info .btns .btn_2 {
-            font-size: 16px;
-            width: 188px;
-            height: 65px;
+            font-size: 15px;
+            width: 182px;
+            height: 62px;
             padding-top: 18px;
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 {
-            width: 359px;
-            height: 295px;
+            width: 353px;
+            height: 291px;
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 img {
-            width: 64px;
-            height: 63px;
-            margin-top: -1px;
+            width: 62px;
+            height: 62px;
+            margin-top: -2px;
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 h1 {
-            font-size: 30px;
-            margin-top: 23px;
+            font-size: 28px;
+            margin-top: 22px;
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 p {
-            font-size: 16px;
-            line-height: 24px;
-            margin-top: 11px;
+            font-size: 15px;
+            line-height: 23px;
+            margin-top: 10px;
         }
 
 
         .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 .learn_more .color {
-            width: 25px;
-            height: 25px;
-            margin-top: 13px;
+            width: 24px;
+            height: 24px;
+            margin-top: 12px;
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_top .card_1 .learn_more h6 {
-            font-size: 16px;
-            margin-top: 14px;
+            font-size: 15px;
+            margin-top: 13px;
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 {
-            width: 359px;
-            height: 295px;
+            width: 353px;
+            height: 291px;
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 img {
-            width: 64px;
-            height: 63px;
-            margin-top: -1px;
+            width: 62px;
+            height: 62px;
+            margin-top: -2px;
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 h1 {
-            font-size: 30px;
-            margin-top: 23px;
+            font-size: 28px;
+            margin-top: 22px;
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 p {
-            font-size: 16px;
-            line-height: 24px;
-            margin-top: 11px;
+            font-size: 15px;
+            line-height: 23px;
+            margin-top: 10px;
         }
 
 
         .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 .learn_more .color {
-            width: 25px;
-            height: 25px;
-            margin-top: 13px;
+            width: 24px;
+            height: 24px;
+            margin-top: 12px;
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_top .card_2 .learn_more h6 {
-            font-size: 16px;
-            margin-top: 14px;
+            font-size: 15px;
+            margin-top: 13px;
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 {
-            width: 359px;
-            height: 295px;
+            width: 353px;
+            height: 291px;
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 img {
-            width: 64px;
-            height: 63px;
-            margin-top: -1px;
+            width: 62px;
+            height: 62px;
+            margin-top: -2px;
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 h1 {
-            font-size: 30px;
-            margin-top: 23px;
+            font-size: 28px;
+            margin-top: 22px;
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 p {
-            font-size: 16px;
-            line-height: 24px;
-            margin-top: 11px;
+            font-size: 15px;
+            line-height: 23px;
+            margin-top: 10px;
         }
 
 
         .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 .learn_more .color {
-            width: 25px;
-            height: 25px;
-            margin-top: 13px;
+            width: 24px;
+            height: 24px;
+            margin-top: 12px;
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_top .card_3 .learn_more h6 {
-            font-size: 16px;
-            margin-top: 14px;
+            font-size: 15px;
+            margin-top: 13px;
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_bottom {
@@ -929,105 +933,105 @@
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 {
-            width: 359px;
-            height: 295px;
+            width: 353px;
+            height: 291px;
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 img {
-            width: 64px;
-            height: 63px;
-            margin-top: -1px;
+            width: 62px;
+            height: 62px;
+            margin-top: -2px;
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 h1 {
-            font-size: 30px;
-            margin-top: 23px;
+            font-size: 28px;
+            margin-top: 22px;
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 p {
-            font-size: 16px;
-            line-height: 24px;
-            margin-top: 11px;
+            font-size: 15px;
+            line-height: 23px;
+            margin-top: 10px;
         }
 
 
         .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 .learn_more .color {
-            width: 25px;
-            height: 25px;
-            margin-top: 13px;
+            width: 24px;
+            height: 24px;
+            margin-top: 12px;
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_4 .learn_more h6 {
-            font-size: 16px;
-            margin-top: 14px;
+            font-size: 15px;
+            margin-top: 13px;
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 {
-            width: 359px;
-            height: 295px;
+            width: 353px;
+            height: 291px;
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 img {
-            width: 64px;
-            height: 63px;
-            margin-top: -1px;
+            width: 62px;
+            height: 62px;
+            margin-top: -2px;
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 h1 {
-            font-size: 30px;
-            margin-top: 23px;
+            font-size: 28px;
+            margin-top: 22px;
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 p {
-            font-size: 16px;
-            line-height: 24px;
-            margin-top: 11px;
+            font-size: 15px;
+            line-height: 23px;
+            margin-top: 10px;
         }
 
 
         .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 .learn_more .color {
-            width: 25px;
-            height: 25px;
-            margin-top: 13px;
+            width: 24px;
+            height: 24px;
+            margin-top: 12px;
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_5 .learn_more h6 {
-            font-size: 16px;
-            margin-top: 14px;
+            font-size: 15px;
+            margin-top: 13px;
         }
 
-        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_3 {
-            width: 359px;
-            height: 295px;
+        .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 {
+            width: 353px;
+            height: 291px;
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 img {
-            width: 64px;
-            height: 63px;
-            margin-top: -1px;
+            width: 62px;
+            height: 62px;
+            margin-top: -2px;
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 h1 {
-            font-size: 30px;
-            margin-top: 23px;
+            font-size: 28px;
+            margin-top: 22px;
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 p {
-            font-size: 16px;
-            line-height: 24px;
-            margin-top: 11px;
+            font-size: 15px;
+            line-height: 23px;
+            margin-top: 10px;
         }
 
 
         .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 .learn_more .color {
-            width: 25px;
-            height: 25px;
-            margin-top: 13px;
+            width: 24px;
+            height: 24x;
+            margin-top: 12px;
         }
 
         .abaut_us .abaut_2 .cards .cards_wrapper_bottom .card_6 .learn_more h6 {
-            font-size: 16px;
-            margin-top: 14px;
+            font-size: 15px;
+            margin-top: 13px;
         }
     }
 
